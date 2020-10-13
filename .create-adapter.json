@@ -1,0 +1,40 @@
+{
+	"cli": true,
+	"adapterName": "openmqttgateway",
+	"title": "openMQTTGateway",
+	"description": "read and use mqtt dp from openmqttgateway",
+	"keywords": [
+		"openmqttgateway bluetooth"
+	],
+	"expert": "yes",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [
+		"tab",
+		"custom"
+	],
+	"type": "protocols",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "push",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"tools": [
+		"ESLint",
+		"type checking",
+		"devcontainer"
+	],
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"authorName": "EdgarM73",
+	"authorGithub": "EdgarM73",
+	"authorEmail": "edgar.miller@gmail.com",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "yes",
+	"license": "MIT License",
+	"ci": "gh-actions",
+	"dependabot": "yes",
+	"creatorVersion": "1.29.1"
+}

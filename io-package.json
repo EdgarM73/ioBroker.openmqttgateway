@@ -1,0 +1,95 @@
+{
+	"common": {
+		"name": "openmqttgateway",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "openMQTTGateway",
+		"titleLang": {
+			"en": "openMQTTGateway",
+			"de": "openMQTTGateway",
+			"ru": "openMQTTGateway",
+			"pt": "openMQTTGateway",
+			"nl": "openMQTTGateway",
+			"fr": "openMQTTGateway",
+			"it": "openMQTTGateway",
+			"es": "openMQTTGateway",
+			"pl": "openMQTTGateway",
+			"zh-cn": "openMQTTGateway"
+		},
+		"desc": {
+			"en": "read and use mqtt dp from openmqttgateway",
+			"de": "Lesen und verwenden Sie mqtt dp von openmqttgateway",
+			"ru": "читать и использовать mqtt dp из openmqttgateway",
+			"pt": "ler e usar mqtt dp de openmqttgateway",
+			"nl": "lees en gebruik mqtt dp van openmqttgateway",
+			"fr": "lire et utiliser mqtt dp depuis openmqttgateway",
+			"it": "leggere e utilizzare mqtt dp da openmqttgateway",
+			"es": "leer y usar mqtt dp desde openmqttgateway",
+			"pl": "czytaj i używaj mqtt dp z openmqttgateway",
+			"zh-cn": "从openmqttgateway读取并使用mqtt dp"
+		},
+		"authors": [
+			"EdgarM73 <edgar.miller@gmail.com>"
+		],
+		"keywords": [
+			"openmqttgateway bluetooth"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "openmqttgateway.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/EdgarM73/ioBroker.openmqttgateway/master/admin/openmqttgateway.png",
+		"readme": "https://github.com/EdgarM73/ioBroker.openmqttgateway/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "protocols",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "push",
+		"materialize": true,
+		"materializeTab": true,
+		"adminTab": {
+			"singleton": true,
+			"name": {
+				"en": "openMQTTGateway",
+				"de": "openMQTTGateway",
+				"ru": "openMQTTGateway",
+				"pt": "openMQTTGateway",
+				"nl": "openMQTTGateway",
+				"fr": "openMQTTGateway",
+				"it": "openMQTTGateway",
+				"es": "openMQTTGateway",
+				"pl": "openMQTTGateway",
+				"zh-cn": "openMQTTGateway"
+			},
+			"link": "",
+			"fa-icon": "info"
+		},
+		"supportCustoms": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
